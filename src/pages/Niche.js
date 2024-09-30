@@ -9,7 +9,6 @@ import { Servicecard } from '../component/service-card';
 import { serviceinfo } from '../info/service-info';
 import { Grid2 } from '@mui/material';
 import { productinfo } from '../info/product-info';
-import useWindowDimensions from '../windowsize'
 import { isMobile } from '../windowsize';
 import {useParams} from 'react-router-dom';
 

@@ -9,7 +9,7 @@ import useWindowDimensions from '../windowsize';
 
 function Aboutus() {
   let k = 0;
-  let { height, width } = useWindowDimensions();
+  let {  width } = useWindowDimensions();
   if ( isMobile() ){
     k =25
   }

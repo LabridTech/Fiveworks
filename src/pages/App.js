@@ -1,5 +1,5 @@
 import "../style/App.css";
-import { Banner, Banner2 } from "../section/banner";
+import {  Banner2 } from "../section/banner";
 import { SectionChoosing } from "../section/choosing-section";
 import { Mainservice } from "../section/main-service";
 import { Navbar } from "../section/nav";

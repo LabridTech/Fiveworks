@@ -11,11 +11,7 @@ import * as React from 'react';
 
 function Quote() {
 
-  const [valueTextField, SetTextField] = React.useState();
-
-    const rest = () => {
-        SetTextField('');
-    }
+  
   
    return (
     <div className="App">
@@ -31,7 +27,7 @@ function Quote() {
         <TextField id="filled-basic" required  label="Phone Number" variant="filled" fullWidth  sx={{backgroundColor : '#18181c' , borderRadius : 2 , marginBottom : 2 , '& .MuiInputLabel-root ' : {color : '#fff'} }} style={{color : '#fff'}} />
         <TextField id="filled-basic" required  label="Country" variant="filled" fullWidth  sx={{backgroundColor : '#18181c' , borderRadius : 2 , marginBottom : 2 , '& .MuiInputLabel-root ' : {color : '#fff'} }} style={{color : '#fff'}} />
         <TextField id="filled-basic" required  label="Project" variant="filled" fullWidth sx={{backgroundColor : '#18181c' , borderRadius : 2 , marginBottom : 2 , '& .MuiInputLabel-root ' : {color : '#fff'} }} style={{color : '#fff'}} />
-        <TextField id="filled-basic" required  InputLabelProps={{ shrink: true }} label="Date" value={valueTextField} type='date'  variant="filled" fullWidth  sx={{backgroundColor : '#18181c' , borderRadius : 2 , marginBottom : 2 , '& .MuiInputLabel-root ' : {color : '#fff'} }} style={{color : '#fff'}} />
+        <TextField id="filled-basic" required  InputLabelProps={{ shrink: true }} label="Date"  type='date'  variant="filled" fullWidth  sx={{backgroundColor : '#18181c' , borderRadius : 2 , marginBottom : 2 , '& .MuiInputLabel-root ' : {color : '#fff'} }} style={{color : '#fff'}} />
         <TextField id="filled-basic" required  label="Project Description" variant="filled" fullWidth sx={{backgroundColor : '#18181c' , borderRadius : 2 , marginBottom : 2 , '& .MuiInputLabel-root ' : {color : '#fff'} }} style={{color : '#fff'}} />
         <Button type='Submit' variant="contained" sx={{  backgroundColor : '#FFA800' , color : '#000' , fontWeight : 'bold'  , fontSize : '12px' ,  borderRadius : '30px' , marginInline : isMobile() ? '20%' :'40%', paddingInline: !isMobile() ? 10 : 4 , paddingBlock :  1 }}> Send US </Button>
         

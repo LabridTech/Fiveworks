@@ -14,7 +14,7 @@ import webposter from '../img/webposter.png';
 import mobileposter from '../img/mobileposter.png';
 
 export function Banner2(){
-  let { height, windowwidth } = useWindowDimensions();
+  let {  windowwidth } = useWindowDimensions();
   const navigate = useNavigate();
 
   return(

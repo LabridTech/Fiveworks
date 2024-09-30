@@ -9,7 +9,7 @@ import { isMobile } from '../windowsize';
 
 
 export function Mainservice(){
-     let { height, width } = useWindowDimensions();
+     let { width } = useWindowDimensions();
      let k = 2 ;
      if(width <1600){
       k = 3 ;

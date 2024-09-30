@@ -11,7 +11,7 @@ import { useNavigate } from "react-router-dom";
 
 export function OurWork(){
   const navigate = useNavigate();
-      let { height, width } = useWindowDimensions();
+      let {  width } = useWindowDimensions();
      let k = 5 ;
      if(width <1600){
       k = 10 ;

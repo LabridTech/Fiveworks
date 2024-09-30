@@ -1,16 +1,12 @@
 import Typography from "@mui/material/Typography";
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import useWindowDimensions from "../windowsize";
 import { isMobile } from "../windowsize";
 
 export function DiscussSection() {
-  let { height, width } = useWindowDimensions();
-  let k = 5;
+  
 
-  if (isMobile()) {
-    k = 35;
-  }
+  
   return (
     <div style={{ paddingInline: "10%", backgroundColor: "#14111e" }}>
       <div

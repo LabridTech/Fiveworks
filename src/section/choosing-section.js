@@ -9,7 +9,7 @@ import { useNavigate } from "react-router-dom";
 
 export function SectionChoosing(){
      const navigate = useNavigate();
-     let { height, width } = useWindowDimensions();
+     let {  width } = useWindowDimensions();
      let k = 2;
      if(width <1600){
           k = 3 ;
