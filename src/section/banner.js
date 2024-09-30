@@ -91,7 +91,7 @@ export function Banner2(){
 
 
 export function Banner(){
-  let { height, width } = useWindowDimensions();
+  let {  width } = useWindowDimensions();
      let k = 3 ;
      if (isMobile()) {
       k = 20 ;

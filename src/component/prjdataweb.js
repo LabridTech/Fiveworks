@@ -1,5 +1,4 @@
 import Typography from "@mui/material/Typography";
-import { isMobile } from "../windowsize";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
 
 export default function PrjdataWeb({ heading, item }) {
